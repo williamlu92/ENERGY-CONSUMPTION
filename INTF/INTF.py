@@ -14,7 +14,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 
 # Load your dataset
-df = pd.read_csv('/Users/williamlu/Desktop/INTF/recs2015_public_v4.csv')
+df = pd.read_csv('INTF/recs2015_public_v4.csv')
 
 # Select relevant columns
 relevant_columns = ['KWH', 'TOTHSQFT', 'EQUIPAGE', 'TOTROOMS', 'NHSLDMEM', 'TOTCSQFT', 'HDD65','TYPEHUQ','NUMBERAC','ELWARM','ELWATER','ELFOOD'] #Elwarm good, ELFOOD good, ELWATER
