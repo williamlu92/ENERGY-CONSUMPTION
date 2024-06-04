@@ -253,10 +253,11 @@ NHSLDMEM = st.slider('Number of Household Members', min_value=1, max_value=10, v
 
 # Region to HDD65 Mapping
 region_to_hdd65 = {
-    "Northeast": 6000,
-    "Midwest": 7000,
-    "South": 2000,
-    "West": 4000
+    "Northeast": 2000,
+    "Midwest": 1500,
+    "South": 6000,
+    "West": 6000
+
 }
 region = st.selectbox('Select Your Region', list(region_to_hdd65.keys()))
 HDD65 = region_to_hdd65[region]
